@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Open+Sans:wght@300;400&display=swap");
+
+@font-face {
+  font-family: ailerons;
+  src: url("fonts/Ailerons.otf");
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  overflow-x: hidden;
+}
+
+.imgContainer {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.imgContainer {
+  width: 100vw;
+  margin: 0 auto 40px auto;
+}
+
+.img {
+  width: 100vw;
+  display: block;
+  margin: auto;
+}
+
+.title {
+  width: 95%;
+  font-size: 4.5vw;
+  text-align: center;
+  color: #d1d0c5;
+  margin: 40px auto 40px auto;
+  font-family: "ailerons", "Courier New";
+}
+
+.explanation {
+  width: 80%;
+  font-size: 2.5vh;
+  color: #d1d0c5;
+  margin: auto;
+  margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  word-spacing: 6px;
+  text-align: center;
+}
+
+.footerContainer {
+  margin-top: 50px;
+  width: 100%;
+  min-height: 19vh;
+  background: #030303;
+}
+
+.footer {
+  width: 81%;
+  font-size: 1.9vh;
+  color: #9c9c9c;
+  font-family: "Open Sans", sans-serif;
+  word-spacing: 4px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.insta {
+  width: 100%;
+  height: 70px;
+  margin: 23px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.instaImg {
+  height: 53px;
+  width: 53px;
+  cursor: pointer;
+  filter: invert(100%);
+}
+.instaImg:hover {
+  filter: invert(70%);
+}
+
+.contact {
+  color: #9c9c9c;
+  font-size: 2vh;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 52px;
+}
